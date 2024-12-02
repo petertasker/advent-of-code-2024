@@ -11,8 +11,13 @@
 **/*.xml
 **/venv/Lib/
 **/venv/Scripts/
+**/vent/pyvenv.cfg
 **/.venv/Lib/
 **/.venv/Scripts/
+**/.vent/pyvenv.cfg
+**/idea
+**/.idea
+
 # AWS User-specific
 .idea/**/aws.xml
 
