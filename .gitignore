@@ -11,10 +11,9 @@
 **/*.xml
 **/venv/Lib/
 **/venv/Scripts/
-**/vent/pyvenv.cfg
 **/.venv/Lib/
 **/.venv/Scripts/
-**/.vent/pyvenv.cfg
+**/pyvenv.cfg
 **/idea
 **/.idea
 
