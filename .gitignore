@@ -9,7 +9,10 @@
 .idea/**/shelf
 
 **/*.xml
-.idea/
+**/venv/Lib/
+**/venv/Scripts/
+**/.venv/Lib/
+**/.venv/Scripts/
 # AWS User-specific
 .idea/**/aws.xml
 
