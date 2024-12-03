@@ -11,8 +11,8 @@ def tuple_to_str(match):
 
 def main():
     total = 0
-    current_do_i = -0
-    current_dont_i = -0
+    current_do_i = 0
+    current_dont_i = 0
 
     with open("input") as f:
         text = f.read()
