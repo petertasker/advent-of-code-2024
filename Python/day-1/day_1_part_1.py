@@ -1,8 +1,9 @@
 def main():
-
     sum = 0
     leftLst = []
     rightLst = []
+
+    # Parse file into two lists.
     with open("input") as f:
         for line in f.readlines():
             splt = line.split()
@@ -11,7 +12,7 @@ def main():
     leftLst.sort()
     rightLst.sort()
 
-
+    # Sum the absolute difference between each index of the two lists.
     for i in range(len(leftLst)):
         ans = (abs(leftLst[i] - rightLst[i]))
         sum += ans

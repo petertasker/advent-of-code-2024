@@ -12,7 +12,10 @@ def main():
 
     with open("input") as f:
         for line in f.readlines():
+            # Turn line into array of integers
             splt = [int(x) for x in line.split()]
+
+            # If all in ascending or descending series and each neighbour is 1 <= i <= 3
             if (sorted(splt) == splt or sorted(splt, reverse=True) == splt) \
                     and adjacent_is_near(splt):
                 print(f"{splt}. SORTED!")
@@ -20,6 +23,7 @@ def main():
             else:
                 print(f"{splt}. NOT SORTED!")
         print(total)
+
 
 if __name__ == '__main__':
     main()
